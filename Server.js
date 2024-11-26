@@ -36,8 +36,9 @@ app.use(require("./routes/user_route"));
 //   }
 // });
 
-// app.get("/", async (req, res) => {
-//     res.send("Hello");
+app.get('/Signin', (req, res) => {
+    res.send('Signin page is working!');
+});
 
 // });
 
